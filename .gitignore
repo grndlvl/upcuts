@@ -1,0 +1,8 @@
+node_modules/
+.omc/
+playwright-report/
+test-results/
+tests/a11y/playwright-report/
+tests/a11y/test-results/
+.cache/
+_site/

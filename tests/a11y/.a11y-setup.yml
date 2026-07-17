@@ -1,0 +1,5 @@
+version: 1
+layout: tests-a11y-harness
+project_type: static-html
+site_mode: single-site
+node: 24
