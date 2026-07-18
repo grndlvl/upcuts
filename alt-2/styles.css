@@ -127,7 +127,7 @@ a {
 
 .brand img {
   width: auto;
-  height: 2.9rem;
+  height: 3.6rem;
 }
 
 .primary-nav {
@@ -189,7 +189,7 @@ a {
 }
 
 .menu-icon {
-  margin: 0 auto 0.45rem;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -636,6 +636,16 @@ h3 {
   font-size: 1rem;
 }
 
+.tile-visit address a {
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 1px;
+}
+
+.tile-visit address a:hover,
+.tile-visit address a:focus {
+  text-decoration-thickness: 3px;
+}
+
 .hours-list {
   margin: 0 0 1.25rem;
 }
@@ -769,7 +779,7 @@ h3 {
   }
 
   .brand img {
-    height: 2.5rem;
+    height: 3rem;
   }
 
   .action-row,

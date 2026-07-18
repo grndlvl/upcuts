@@ -124,16 +124,13 @@ a {
 }
 
 .brand {
-  width: 8rem;
-  height: 4rem;
   display: flex;
   align-items: center;
-  overflow: hidden;
 }
 
 .brand img {
-  width: 8rem;
-  transform: scale(1.35);
+  width: auto;
+  height: 3rem;
 }
 
 .primary-nav {
@@ -187,7 +184,7 @@ a {
 }
 
 .menu-icon {
-  margin: 0 auto 0.45rem;
+  margin: 0 auto;
   position: relative;
 }
 
@@ -678,6 +675,17 @@ h3 {
   grid-template-columns: 1.2fr 0.8fr;
   align-items: center;
   gap: 5rem;
+}
+
+.visit address a {
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 1px;
+}
+
+.visit address a:hover,
+.visit address a:focus {
+  color: var(--gold-light);
+  text-decoration-thickness: 3px;
 }
 
 .visit address {
