@@ -2,330 +2,213 @@
 <html lang="en-US">
   <head>
     <meta charset="utf-8" />
+    <meta name="robots" content="noindex, nofollow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Up Cuts Hair Designers | Walk-In Hair Salon in Aiken, SC</title>
+    <title>UpCuts — Website Concept Previews (grndlvl)</title>
     <meta
       name="description"
-      content="Up Cuts is a locally owned Aiken hair salon with 30+ years of combined experience. Walk in or join the waitlist."
+      content="Internal design concept previews for UpCuts, prepared by grndlvl. Not affiliated with or approved by the business."
     />
     <meta name="theme-color" content="#16140f" />
-    <link rel="canonical" href="https://example.github.io/upcuts/" />
-    <link rel="icon" href="images/favicon.ico" sizes="any" />
-    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16.png" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;0,700;1,600&amp;family=Inter:wght@400;500;600;700&amp;display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,600;1,600&amp;family=Inter:wght@400;500;600&amp;display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
-
-    <meta property="og:type" content="website" />
-    <meta property="og:site_name" content="Up Cuts Hair Designers" />
-    <meta property="og:locale" content="en_US" />
-    <meta property="og:title" content="Up Cuts Hair Designers | Aiken, SC" />
-    <meta
-      property="og:description"
-      content="Aiken’s friendly shortcut to a great cut. Walk in or join the waitlist."
-    />
-    <meta property="og:url" content="https://example.github.io/upcuts/" />
-    <meta property="og:image" content="https://example.github.io/upcuts/images/og-image.png" />
-    <meta property="og:image:type" content="image/png" />
-    <meta property="og:image:width" content="1200" />
-    <meta property="og:image:height" content="630" />
-    <meta property="og:image:alt" content="Up Cuts Hair Designers in Aiken, South Carolina" />
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Up Cuts Hair Designers | Aiken, SC" />
-    <meta
-      name="twitter:description"
-      content="Aiken’s friendly shortcut to a great cut. Walk in or join the waitlist."
-    />
-    <meta name="twitter:image" content="https://example.github.io/upcuts/images/og-image.png" />
-    <meta name="twitter:image:alt" content="Up Cuts Hair Designers in Aiken, South Carolina" />
-
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "HairSalon",
-        "name": "Up Cuts Hair Designers",
-        "url": "https://example.github.io/upcuts/",
-        "image": "https://example.github.io/upcuts/images/og-image.png",
-        "logo": "https://example.github.io/upcuts/images/upcuts-logo.png",
-        "telephone": "+1-803-226-0510",
-        "email": "Upcuts102@gmail.com",
-        "sameAs": [
-          "https://www.facebook.com/Upcutsllc",
-          "https://www.yelp.com/biz/up-cuts-aiken-2"
-        ],
-        "address": {
-          "@type": "PostalAddress",
-          "streetAddress": "156 University Parkway",
-          "addressLocality": "Aiken",
-          "addressRegion": "SC",
-          "postalCode": "29801",
-          "addressCountry": "US"
-        },
-        "openingHoursSpecification": [
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-            "opens": "09:00",
-            "closes": "18:00"
-          },
-          {
-            "@type": "OpeningHoursSpecification",
-            "dayOfWeek": "Saturday",
-            "opens": "09:00",
-            "closes": "16:00"
-          }
-        ]
+    <style>
+      :root {
+        --ink: #16140f;
+        --charcoal: #212427;
+        --gold: #d1c47c;
+        --gold-deep: #c9a13b;
+        --text: #ece7db;
+        --muted: #a59f92;
+        --line: rgb(209 196 124 / 22%);
       }
-    </script>
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        background: var(--ink);
+        color: var(--text);
+        font-family: inter, arial, sans-serif;
+        line-height: 1.6;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .wrap {
+        width: min(calc(100% - 2rem), 60rem);
+        margin: 0 auto;
+        padding-block: clamp(3rem, 8vw, 6rem);
+        flex: 1;
+      }
+
+      .kicker {
+        margin: 0 0 0.75rem;
+        color: var(--gold);
+        font-size: 0.76rem;
+        font-weight: 600;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+      }
+
+      h1 {
+        margin: 0 0 1rem;
+        font-family: fraunces, georgia, serif;
+        font-weight: 600;
+        font-size: clamp(2.2rem, 5vw, 3.2rem);
+        line-height: 1.1;
+        letter-spacing: -0.01em;
+      }
+
+      h1 em {
+        color: var(--gold);
+        font-style: italic;
+      }
+
+      .lede {
+        max-width: 44ch;
+        margin: 0 0 2.5rem;
+        color: var(--muted);
+        font-size: 1.05rem;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.25rem;
+      }
+
+      .card {
+        display: flex;
+        flex-direction: column;
+        padding: 1.75rem;
+        background: var(--charcoal);
+        border: 1px solid var(--line);
+        border-radius: 1.25rem;
+        text-decoration: none;
+        color: inherit;
+        transition: border-color 0.2s ease, transform 0.2s ease;
+      }
+
+      .card:hover,
+      .card:focus-visible {
+        border-color: var(--gold);
+        transform: translateY(-3px);
+        outline: none;
+      }
+
+      .card:focus-visible {
+        outline: 3px solid var(--gold);
+        outline-offset: 3px;
+      }
+
+      .card .tag {
+        align-self: flex-start;
+        margin-bottom: 1.25rem;
+        padding: 0.3rem 0.8rem;
+        border: 1px solid var(--gold);
+        border-radius: 999px;
+        color: var(--gold);
+        font-size: 0.72rem;
+        font-weight: 600;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+      }
+
+      .card h2 {
+        margin: 0 0 0.5rem;
+        font-family: fraunces, georgia, serif;
+        font-weight: 600;
+        font-size: 1.5rem;
+      }
+
+      .card p {
+        margin: 0 0 1.5rem;
+        color: var(--muted);
+        font-size: 0.95rem;
+      }
+
+      .card .go {
+        margin-top: auto;
+        color: var(--gold);
+        font-weight: 600;
+      }
+
+      .note {
+        margin-top: 2.5rem;
+        padding: 1rem 1.25rem;
+        border-left: 3px solid var(--gold-deep);
+        background: rgb(201 161 59 / 8%);
+        border-radius: 0 0.5rem 0.5rem 0;
+        color: var(--muted);
+        font-size: 0.85rem;
+      }
+
+      footer {
+        border-top: 1px solid var(--line);
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+
+      footer .wrap {
+        padding-block: 1.5rem;
+      }
+
+      @media (width <= 640px) {
+        .cards {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
   </head>
   <body>
-    <a class="skip-link" href="#main">Skip to main content</a>
-    <header class="site-header">
-      <div class="shell nav-wrap">
-        <a class="brand" href="#top" aria-label="Up Cuts Hair Designers home">
-          <picture>
-            <source srcset="images/upcuts-logo-lockup.webp" type="image/webp" />
-            <img
-              src="images/upcuts-logo-lockup.png"
-              width="457"
-              height="217"
-              alt="Up Cuts Hair Designers"
-            />
-          </picture>
+    <main class="wrap">
+      <p class="kicker">grndlvl · Website concept previews</p>
+      <h1>UpCuts — two <em>design directions</em></h1>
+      <p class="lede">
+        Two responsive, accessible one-page website concepts for UpCuts Hair Designers in Aiken,
+        South Carolina. Open each to compare the direction, layout, and tone.
+      </p>
+
+      <div class="cards">
+        <a class="card" href="alt-1/">
+          <span class="tag">Concept A</span>
+          <h2>alt-1 — Energetic</h2>
+          <p>
+            Bold black-and-gold with a condensed display face and diagonal “cut line” accents. High
+            energy and sporty.
+          </p>
+          <span class="go">View concept →</span>
         </a>
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-          <span class="menu-icon" aria-hidden="true"></span>
-          <span class="menu-label">Menu</span>
-        </button>
-        <nav id="primary-nav" class="primary-nav" aria-label="Primary" data-open="false">
-          <a href="#services">Services</a>
-          <a href="#how-it-works">Your visit</a>
-          <a href="#team">Our story</a>
-          <a href="#gallery">Gallery</a>
-          <a href="#visit">Visit</a>
-          <a class="nav-cta" href="https://www.waitlist.me/w/upcutswaitinglist"
-            >Join the waitlist</a
-          >
-        </nav>
+        <a class="card" href="alt-2/">
+          <span class="tag">Concept B</span>
+          <h2>alt-2 — Editorial</h2>
+          <p>
+            Refined dark black-and-gold in an editorial bento layout with a serif display face.
+            Elegant and premium.
+          </p>
+          <span class="go">View concept →</span>
+        </a>
       </div>
-    </header>
 
-    <main id="main" tabindex="-1">
-      <div class="shell bento">
-        <article class="tile tile-hero" id="top" aria-labelledby="hero-title">
-          <p class="eyebrow">Locally owned in Aiken, South Carolina</p>
-          <h1 id="hero-title">Aiken’s friendly shortcut to a <em>great cut.</em></h1>
-          <p class="hero-lede">
-            Walk in, join the waitlist, and settle into a salon built by local stylists with more
-            than 30 years of combined experience.
-          </p>
-          <div class="action-row">
-            <a class="button button-solid" href="https://www.waitlist.me/w/upcutswaitinglist"
-              >Join the waitlist</a
-            >
-            <a
-              class="text-link"
-              href="https://www.google.com/maps/search/?api=1&amp;query=156+University+Parkway+Aiken+SC+29801"
-              >Get directions <span aria-hidden="true">↗</span></a
-            >
-          </div>
-        </article>
-
-        <figure class="tile tile-photo">
-          <picture>
-            <source srcset="images/stock-salon-interior.webp" type="image/webp" />
-            <img
-              src="images/stock-salon-interior.jpg"
-              width="675"
-              height="1200"
-              alt="Bright modern salon interior with styling chairs and mirrors"
-            />
-          </picture>
-          <figcaption class="hero-badge" aria-hidden="true">
-            <strong>30+</strong><span>years combined</span>
-          </figcaption>
-        </figure>
-
-        <p class="tile tile-stat tile-stat-a">
-          <strong>Local</strong><span>Aiken salon ownership</span>
-        </p>
-        <p class="tile tile-stat tile-stat-b">
-          <strong>Walk in</strong><span>or join the waitlist</span>
-        </p>
-        <p class="tile tile-stat tile-stat-c">
-          <strong>6 days</strong><span>Mon–Sat, closed Sunday</span>
-        </p>
-
-        <div class="tile tile-band">
-          <p>Ready when you are—no appointment required.</p>
-          <div class="action-row">
-            <a class="button button-solid band-button" href="tel:+18032260510"
-              >Call <span class="nowrap">803-226-0510</span></a
-            >
-          </div>
-        </div>
-
-        <section class="tile tile-services" id="services" aria-labelledby="services-title">
-          <p class="eyebrow">What we offer</p>
-          <h2 id="services-title">The right cut, no guesswork.</h2>
-          <ul class="chip-list">
-            <li>Haircuts</li>
-            <li>Children’s cuts</li>
-            <li>Color</li>
-            <li>Styling &amp; treatments</li>
-          </ul>
-          <p class="fine-print">
-            Categories reflect public salon listings. Call to confirm the service you need and
-            current pricing.
-          </p>
-        </section>
-
-        <section class="tile tile-steps" id="how-it-works" aria-labelledby="process-title">
-          <p class="eyebrow">Your visit</p>
-          <h2 id="process-title">Three steps, start to finish.</h2>
-          <ol class="steps-inline">
-            <li>
-              <span>1</span>
-              <div>
-                <h3>Check the list</h3>
-                <p>Join online or walk in.</p>
-              </div>
-            </li>
-            <li>
-              <span>2</span>
-              <div>
-                <h3>Come to the salon</h3>
-                <p>156 University Parkway, Aiken.</p>
-              </div>
-            </li>
-            <li>
-              <span>3</span>
-              <div>
-                <h3>Meet your stylist</h3>
-                <p>Get comfortable and get cut.</p>
-              </div>
-            </li>
-          </ol>
-        </section>
-
-        <section class="tile tile-story" id="team" aria-labelledby="story-title">
-          <div class="story-portrait">
-            <picture>
-              <source srcset="images/stock-stylist-client.webp" type="image/webp" />
-              <img
-                src="images/stock-stylist-client.jpg"
-                width="800"
-                height="1200"
-                alt="Hairstylist and client sharing a friendly conversation"
-                loading="lazy"
-              />
-            </picture>
-          </div>
-          <div>
-            <p class="eyebrow">Our story</p>
-            <h2 id="story-title">Built by stylists who know Aiken.</h2>
-            <p>
-              Donna, Sandy, and Jonathan left Great Clips to open a salon of their own, bringing
-              more than 30 years of combined experience to Up Cuts.
-            </p>
-            <p>
-              Walk-ins are welcome. After-hours appointments may also be available by request, with
-              an additional charge.
-            </p>
-            <a class="text-link" href="mailto:Upcuts102@gmail.com"
-              >Email the Up Cuts team <span aria-hidden="true">→</span></a
-            >
-          </div>
-        </section>
-
-        <figure class="tile tile-quote" aria-labelledby="reviews-title">
-          <p class="visually-hidden" id="reviews-title">Words from clients</p>
-          <p class="review-stars">
-            <span aria-hidden="true">★★★★★</span>
-            <span class="visually-hidden">5 out of 5 stars</span>
-          </p>
-          <blockquote><p>“He’s amazing at cutting hair and passing the time.”</p></blockquote>
-          <a class="text-link" href="https://www.yelp.com/biz/up-cuts-aiken-2"
-            >Read more reviews <span aria-hidden="true">↗</span></a
-          >
-          <figcaption>Brandon C., on Jonathan · 5-star Yelp review, June 2025</figcaption>
-        </figure>
-
-        <figure class="tile tile-gallery" id="gallery">
-          <picture>
-            <source srcset="images/stock-haircut.webp" type="image/webp" />
-            <img
-              src="images/stock-haircut.jpg"
-              width="1200"
-              height="796"
-              alt="Stylist cutting a client’s hair in front of a salon mirror"
-              loading="lazy"
-            />
-          </picture>
-          <figcaption>Care in every cut</figcaption>
-        </figure>
-
-        <figure class="tile tile-mini-quote">
-          <p class="review-stars" aria-hidden="true">★★★★★</p>
-          <blockquote><p>“Incredibly kind staff and stylists.”</p></blockquote>
-          <figcaption>Luke G. · 5-star Yelp review, November 2025</figcaption>
-        </figure>
-
-        <p class="tile tile-note fine-print">
-          Concept photography from Unsplash—not Up Cuts, its team, its clients, or its salon.
-          Replace with an owner-approved photo shoot before launch.
-        </p>
-
-        <section class="tile tile-visit" id="visit" aria-labelledby="visit-title">
-          <p class="eyebrow">Visit Up Cuts</p>
-          <h2 id="visit-title">Walk in. Feel welcome. Leave looking sharp.</h2>
-          <address><strong>156 University Parkway</strong><br />Aiken, SC 29801</address>
-          <dl class="hours-list">
-            <div>
-              <dt>Monday–Friday</dt>
-              <dd>9 a.m.–6 p.m.</dd>
-            </div>
-            <div>
-              <dt>Saturday</dt>
-              <dd>9 a.m.–4 p.m.</dd>
-            </div>
-            <div>
-              <dt>Sunday</dt>
-              <dd>Closed</dd>
-            </div>
-          </dl>
-          <p class="fine-print">
-            Cash and major credit cards accepted. Discounts are published for military members,
-            first responders, and college students with valid ID.
-          </p>
-          <div class="action-row">
-            <a
-              class="button button-outline"
-              href="https://www.google.com/maps/search/?api=1&amp;query=156+University+Parkway+Aiken+SC+29801"
-              >Get directions</a
-            >
-            <a class="button button-outline" href="tel:+18032260510">Call the salon</a>
-          </div>
-        </section>
-      </div>
+      <p class="note">
+        These are unsolicited design concepts prepared for internal review. They are not affiliated
+        with, endorsed by, or approved by UpCuts, and use placeholder stock photography and
+        unconfirmed details. Not for public launch.
+      </p>
     </main>
-
-    <footer class="site-footer">
-      <div class="shell footer-grid">
-        <p><strong>Up Cuts Hair Designers</strong><br />Aiken, South Carolina</p>
-        <nav aria-label="Footer">
-          <a href="#services">Services</a><a href="#how-it-works">Your visit</a
-          ><a href="#visit">Contact</a>
-        </nav>
-        <p>© <span id="year">2026</span> Up Cuts. All rights reserved.</p>
-      </div>
+    <footer>
+      <div class="wrap">Prepared by grndlvl · Concept previews only</div>
     </footer>
-    <script src="script.js" defer></script>
   </body>
 </html>
