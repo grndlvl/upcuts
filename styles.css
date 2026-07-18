@@ -636,6 +636,16 @@ h3 {
   font-size: 1rem;
 }
 
+.tile-visit address a {
+  text-underline-offset: 0.2rem;
+  text-decoration-thickness: 1px;
+}
+
+.tile-visit address a:hover,
+.tile-visit address a:focus {
+  text-decoration-thickness: 3px;
+}
+
 .hours-list {
   margin: 0 0 1.25rem;
 }
