@@ -439,34 +439,48 @@ h3 {
   color: var(--muted);
 }
 
-.card-grid {
+.price-columns {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr));
+  gap: 2rem 3.5rem;
 }
 
-.service-card {
-  min-height: 18rem;
-  padding: 1.5rem;
-  border-top: 5px solid var(--ink);
-  background: var(--white);
-  box-shadow: 0 12px 30px rgb(40 30 0 / 8%);
-}
-
-.card-number {
-  display: block;
-  margin-bottom: 4rem;
-  color: #785900;
-  font: 700 1rem var(--display);
-}
-
-.service-card h3 {
+.price-head {
+  margin-bottom: 0.5rem;
   font: 800 1.8rem var(--display);
   text-transform: uppercase;
 }
 
-.service-card p {
+.price-list {
+  margin: 0;
+}
+
+.price-list div {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.price-list dt {
+  font-weight: 700;
+}
+
+.price-list dt span {
+  display: block;
+  margin-top: 0.15rem;
   color: var(--muted);
+  font-weight: 400;
+  font-size: 0.8rem;
+}
+
+.price-list dd {
+  margin: 0;
+  font: 800 1.7rem var(--display);
+  color: var(--ink);
+  white-space: nowrap;
 }
 
 .fine-print {
