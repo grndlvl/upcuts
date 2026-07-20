@@ -113,7 +113,7 @@ a {
 }
 
 .nav-wrap {
-  min-height: 5.5rem;
+  min-height: 4.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -123,11 +123,36 @@ a {
 .brand {
   display: flex;
   align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
 }
 
-.brand img {
+.brand-mark {
+  height: 2.9rem;
   width: auto;
-  height: 4.6rem;
+  color: var(--gold);
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand-name {
+  font-family: var(--display);
+  font-weight: 600;
+  font-size: 1.55rem;
+  color: var(--gold);
+}
+
+.brand-tag {
+  margin-top: 0.22rem;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.32em;
+  text-transform: uppercase;
+  color: var(--gold);
 }
 
 .primary-nav {
@@ -792,8 +817,12 @@ h3 {
     width: min(calc(100% - 1.25rem), var(--shell));
   }
 
-  .brand img {
-    height: 3.6rem;
+  .brand-mark {
+    height: 2.5rem;
+  }
+
+  .brand-name {
+    font-size: 1.4rem;
   }
 
   .action-row,
