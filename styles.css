@@ -116,7 +116,7 @@ a {
 }
 
 .nav-wrap {
-  min-height: 4.5rem;
+  min-height: 5.5rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -130,7 +130,7 @@ a {
 
 .brand img {
   width: auto;
-  height: 3rem;
+  height: 4.6rem;
 }
 
 .primary-nav {
@@ -886,12 +886,8 @@ h3 {
     width: min(calc(100% - 1.25rem), var(--shell));
   }
 
-  .brand {
-    width: 7rem;
-  }
-
   .brand img {
-    width: 7rem;
+    height: 3.6rem;
   }
 
   .action-row,
