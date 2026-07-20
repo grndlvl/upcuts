@@ -116,7 +116,7 @@ a {
 }
 
 .nav-wrap {
-  min-height: 5.5rem;
+  min-height: 4.75rem;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -126,11 +126,37 @@ a {
 .brand {
   display: flex;
   align-items: center;
+  gap: 0.7rem;
+  text-decoration: none;
 }
 
-.brand img {
+.brand-mark {
+  height: 2.9rem;
   width: auto;
-  height: 4.6rem;
+}
+
+.brand-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 1;
+}
+
+.brand-name {
+  font-family: var(--display);
+  font-weight: 800;
+  font-size: 1.9rem;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: var(--gold);
+}
+
+.brand-tag {
+  margin-top: 0.15rem;
+  font-size: 0.58rem;
+  font-weight: 700;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--gold-light);
 }
 
 .primary-nav {
@@ -886,8 +912,12 @@ h3 {
     width: min(calc(100% - 1.25rem), var(--shell));
   }
 
-  .brand img {
-    height: 3.6rem;
+  .brand-mark {
+    height: 2.5rem;
+  }
+
+  .brand-name {
+    font-size: 1.65rem;
   }
 
   .action-row,
