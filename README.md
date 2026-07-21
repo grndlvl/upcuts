@@ -84,6 +84,6 @@ The current gallery uses three locally stored Unsplash placeholders and visibly 
 - Official Facebook URL published by Up Cuts: http://facebook.com/Upcutsllc (public page metadata exposed only the existing profile image; no usable salon/team originals were retrievable)
 - Temporary salon interior by Barney Goodman: https://unsplash.com/photos/a-modern-hair-salon-interior-with-stylish-chairs-and-mirrors-_Fy7Kq0w6OI
 - Temporary stylist/client scene: https://unsplash.com/photos/a-hairstylist-and-client-share-a-happy-moment-PLKUiQNKcLo
-- Temporary haircut scene: https://unsplash.com/photos/a-woman-is-getting-her-hair-cut-in-front-of-a-mirror-nVkIZg_sbLY
+- Temporary haircut scene: https://unsplash.com/photos/a-woman-gets-her-hair-styled-at-a-salon-PM0IkCzSAZI
 
 No messages, forms, calls, or social DMs were sent while creating this concept.
